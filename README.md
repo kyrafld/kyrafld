@@ -25,6 +25,4 @@ I've been learning to code for roughly 6 months read more about my journey here(
 
 <a href="http://www.github.com/kyrafld"><img src="https://github-readme-streak-stats.herokuapp.com/?user=kyrafld&stroke=ffffff&background=581c87&ring=ec4899&fire=ec4899&currStreakNum=ffffff&currStreakLabel=ec4899&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 
-<a href="http://www.github.com/kyrafld"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=kyrafld&bg_color=581c87&color=ffffff&line=ec4899&point=ffffff&area_color=581c87&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
-
 <a href="https://github.com/kyrafld" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kyrafld&langs_count=10&title_color=ec4899&text_color=ffffff&icon_color=ec4899&bg_color=581c87&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
