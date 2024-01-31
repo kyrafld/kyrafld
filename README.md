@@ -4,11 +4,11 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Junior Cloud Engineer
 ---------------------
 
-I've been learning to code for about 6 months! Self-taught and with the Northcoders skills bootcamp. 
+I've been learning to code for about 6 months now alongside the help of Northcoders and good old Youtube. 
 
-*   🌍  I'm based in Birmingham,UK
+*   🌍  I'm based in Birmingham UK but I'm nomad at heart! 
 *   ✉️  You can contact me at [kyradavis29@outlook.com](mailto:kyradavis29@outlook.com)
-*   🧠  I'm currently teaching myself Python and strengthing my Javascript. 
+*   🧠  I'm currently strengthing my Javascript, learning Azure and Python. 
   
 ### Skills 
 <p align="left">
