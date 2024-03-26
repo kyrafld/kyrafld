@@ -5,7 +5,7 @@ Trainee at Ten10 Academy
 
 I've been learning to code for about 6 months now alongside the help of Northcoders and good old Youtube. 
 
-*   🌍  I'm currently  in Leeds, UK but I'm nomad at heart! 
+*   🌍  I'm currently  in Leeds, UK but I'm a nomad at heart! 
 *   ✉️  You can contact me at [kyradavis29@outlook.com](mailto:kyradavis29@outlook.com)
 *   🧠  I'm currently going through a 7 week intensive academy covering various areas of tech! I hope to specialise in one the areas and build my knowledge over the next few months. 
   
