@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Page-1" id="JLOnOLcOAgradmC6K_oZ">
-    <mxGraphModel dx="1600" dy="1910" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1302" dy="1910" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BxR5kWWOkdNth-eWLe1I-4" value="S" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2" y="-502" width="1046" height="744" as="geometry" />
+          <mxGeometry x="-2" y="-502" width="926" height="892" as="geometry" />
         </mxCell>
         <mxCell id="BxR5kWWOkdNth-eWLe1I-5" value="Customer " style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
-          <mxGeometry x="20" width="150" height="744" as="geometry" />
+          <mxGeometry x="20" width="150" height="892" as="geometry" />
         </mxCell>
         <mxCell id="BxR5kWWOkdNth-eWLe1I-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="BxR5kWWOkdNth-eWLe1I-5" source="BxR5kWWOkdNth-eWLe1I-29" target="BxR5kWWOkdNth-eWLe1I-30">
           <mxGeometry relative="1" as="geometry" />
@@ -26,55 +26,184 @@
           <mxGeometry x="7" y="158" width="130" height="34" as="geometry" />
         </mxCell>
         <mxCell id="BxR5kWWOkdNth-eWLe1I-6" value="Travel Agency &#xa;Managers" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
-          <mxGeometry x="170" width="156" height="744" as="geometry" />
+          <mxGeometry x="170" width="156" height="892" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-62" value="Receive booking&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-6">
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-62" value="Receive booking request" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-6">
           <mxGeometry x="12" y="159" width="130" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-7" value="Hotel Managers" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
-          <mxGeometry x="326" width="150" height="744" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-66" value="Confirm booking &amp;amp; finalise itinerary&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-6">
+          <mxGeometry x="13" y="426" width="130" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-71" value="Prepare accommodation&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-7">
-          <mxGeometry x="12" y="261" width="130" height="38" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-87" value="Are details correct and availability confirmed?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-6">
+          <mxGeometry x="12" y="308" width="132" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-72" value="Manage special requests" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-7">
-          <mxGeometry x="12" y="313" width="130" height="38" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-133" value="Handle customers requests/adjustments" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-6">
+          <mxGeometry x="13" y="485" width="130" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-9" value="Transportation Staff" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
-          <mxGeometry x="476" width="150" height="744" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-7" value="Transportation Staff" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
+          <mxGeometry x="326" width="150" height="892" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-73" value="Confirm travel details - Flight times &amp;amp; Transfers" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-9">
-          <mxGeometry x="11" y="262" width="130" height="38" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-156" value="Confirm travel details&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-7">
+          <mxGeometry x="10" y="487" width="130" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-11" value="Customer Service" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
-          <mxGeometry x="626" width="150" height="744" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-157" value="Prepare for customers travel needs" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-7">
+          <mxGeometry x="12" y="535" width="130" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-69" value="Does the customer need assistance?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
-          <mxGeometry x="5" y="318" width="132" height="90" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-9" value="Airline/Accommodation &#xa;Chains " style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
+          <mxGeometry x="476" width="150" height="892" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-75" value="Handle customer requests" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
-          <mxGeometry x="10" y="264" width="130" height="38" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-178" value="Provide flight &amp;amp; hotel details" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-9">
+          <mxGeometry x="13" y="537" width="130" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-76" value="Wrong details provided?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
-          <mxGeometry x="9" y="424" width="132" height="90" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-179" value="Confirm package participation&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-9">
+          <mxGeometry x="15" y="585" width="130" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-77" value="Trip cancellation requested?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
-          <mxGeometry x="5" y="530" width="132" height="90" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-11" value="Hotel Managers" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
+          <mxGeometry x="626" width="150" height="892" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-78" value="Lack of availability?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
-          <mxGeometry x="5" y="636" width="132" height="90" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-176" value="Ensure accomodation is ready&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
+          <mxGeometry x="15" y="599" width="130" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-12" value="Local Tour &#xa;Operators" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
-          <mxGeometry x="776" width="150" height="744" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-177" value="Coordinate special requests/&lt;span style=&quot;background-color: initial;&quot;&gt;packagers&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
+          <mxGeometry x="17" y="647" width="130" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-14" value="Local Restaurants " style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
-          <mxGeometry x="926" width="120" height="744" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-14" value="Additional Services" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
+          <mxGeometry x="776" width="150" height="892" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-63" value="Coordinate with airlines, hotel, suppliers" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="181" y="-293" width="130" height="38" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-180" value="Offer option tours &amp;amp; excursions" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-14">
+          <mxGeometry x="11" y="651" width="130" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="BxR5kWWOkdNth-eWLe1I-66" value="Confirm details &amp;amp; finalise itinerary&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="-241" width="130" height="38" as="geometry" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-181" value="Provide dining options/pre-arranged mea" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-14">
+          <mxGeometry x="13" y="699" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-63" value="Check availability - Flight, Hotel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="181" y="-247" width="130" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-83" value="Verify customer details" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="181" y="-295" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-134" value="Customer Service" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-384" width="156" height="892" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-135" value="" style="group" vertex="1" connectable="0" parent="BxR5kWWOkdNth-eWLe1I-134">
+          <mxGeometry x="8" y="430" width="136" height="462" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-136" value="Does the customer need assistance?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-135">
+          <mxGeometry y="54" width="132" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-137" value="Handle customer requests" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-135">
+          <mxGeometry x="5" width="130" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-138" value="Wrong details provided?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-135">
+          <mxGeometry x="4" y="160" width="132" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-139" value="Trip cancellation requested?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-135">
+          <mxGeometry y="266" width="132" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-140" value="Lack of availability?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-135">
+          <mxGeometry y="372" width="132" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-182" value="S" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="452" width="1320" height="892" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-183" value="Customer " style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-182">
+          <mxGeometry x="20" width="150" height="892" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-207" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-183">
+          <mxGeometry x="25" y="44" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-208" value="Research destinations" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-183">
+          <mxGeometry x="10" y="122" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-209" value="Check availability - Flights &amp;amp; Hotel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-183">
+          <mxGeometry x="12" y="174" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-214" value="Book holiday package" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-183">
+          <mxGeometry x="10" y="226" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-215" value="Make payment" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-183">
+          <mxGeometry x="12" y="278" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-189" value="Travel Agency " style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-182">
+          <mxGeometry x="170" width="357" height="892" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-190" value="Provide holiday options" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-189">
+          <mxGeometry x="12" y="122" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-216" value="Send Quote&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Provide%20holiday%20options%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BlabelBackgroundColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22192%22%20y%3D%22574%22%20width%3D%22130%22%20height%3D%2234%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-189">
+          <mxGeometry x="16" y="178" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-217" value="Process booking" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-189">
+          <mxGeometry x="16" y="224" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-218" value="Provide itinerary&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-189">
+          <mxGeometry x="13" y="365" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-219" value="Process payment" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-189">
+          <mxGeometry x="13" y="438" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-231" value="Payment Successful?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-189">
+          <mxGeometry x="6.5" y="266" width="156" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-232" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="BxR5kWWOkdNth-eWLe1I-189" source="BxR5kWWOkdNth-eWLe1I-231" target="BxR5kWWOkdNth-eWLe1I-231">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-239" value="Request payment retry&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-189">
+          <mxGeometry x="212" y="294" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-194" value="Airline" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-182">
+          <mxGeometry x="527" width="150" height="892" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-195" value="Board flight&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-194">
+          <mxGeometry x="14" y="393" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-196" value="Fly to destination&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-194">
+          <mxGeometry x="16" y="455" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-220" value="Confirm flight details" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-194">
+          <mxGeometry x="10" y="340" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-222" value="Handle baggage" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-194">
+          <mxGeometry x="16" y="508" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-197" value="Hotel Lane" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-182">
+          <mxGeometry x="677" width="343" height="892" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-198" value="Confirm resevation" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-197">
+          <mxGeometry x="13" y="537" width="130" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-199" value="Check-in guest" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-197">
+          <mxGeometry x="15" y="585" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-223" value="Provide services&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-197">
+          <mxGeometry x="10" y="745" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-224" value="Check-out" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-197">
+          <mxGeometry x="13" y="795" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-225" value="Check-out" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-197">
+          <mxGeometry x="10" y="845" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-238" value="Is reservation correct?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-197">
+          <mxGeometry x="-3" y="634" width="156" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-235" value="Request correction" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-197">
+          <mxGeometry x="191" y="657" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-200" value="Customs " style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-182">
+          <mxGeometry x="1020" width="150" height="892" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-226" value="Customs clearance" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-200">
+          <mxGeometry x="10" y="495" width="130" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-227" value="Luggage inspection" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-200">
+          <mxGeometry x="10" y="450" width="130" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-228" value="Stamp passport&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-200">
+          <mxGeometry x="7" y="540" width="130" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-203" value="Additional Services" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-182">
+          <mxGeometry x="1170" width="150" height="892" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
