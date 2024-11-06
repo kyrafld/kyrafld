@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Page-1" id="JLOnOLcOAgradmC6K_oZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1600" dy="1910" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-4" value="S" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="-502" width="1046" height="744" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-5" value="Customer " style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
+          <mxGeometry x="20" width="150" height="744" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="BxR5kWWOkdNth-eWLe1I-5" source="BxR5kWWOkdNth-eWLe1I-29" target="BxR5kWWOkdNth-eWLe1I-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-29" value="Research destinations" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-5">
+          <mxGeometry x="15" y="38" width="114" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-48" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="BxR5kWWOkdNth-eWLe1I-5" source="BxR5kWWOkdNth-eWLe1I-30" target="BxR5kWWOkdNth-eWLe1I-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-30" value="Select a destination" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-5">
+          <mxGeometry x="15" y="103" width="114" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-45" value="Book the trip - Flight, Hotel &amp;amp; Transport" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-5">
+          <mxGeometry x="7" y="158" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-6" value="Travel Agency &#xa;Managers" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
+          <mxGeometry x="170" width="156" height="744" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-62" value="Receive booking&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-6">
+          <mxGeometry x="12" y="159" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-7" value="Hotel Managers" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
+          <mxGeometry x="326" width="150" height="744" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-71" value="Prepare accommodation&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-7">
+          <mxGeometry x="12" y="261" width="130" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-72" value="Manage special requests" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-7">
+          <mxGeometry x="12" y="313" width="130" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-9" value="Transportation Staff" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
+          <mxGeometry x="476" width="150" height="744" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-73" value="Confirm travel details - Flight times &amp;amp; Transfers" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-9">
+          <mxGeometry x="11" y="262" width="130" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-11" value="Customer Service" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
+          <mxGeometry x="626" width="150" height="744" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-69" value="Does the customer need assistance?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
+          <mxGeometry x="5" y="318" width="132" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-75" value="Handle customer requests" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
+          <mxGeometry x="10" y="264" width="130" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-76" value="Wrong details provided?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
+          <mxGeometry x="9" y="424" width="132" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-77" value="Trip cancellation requested?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
+          <mxGeometry x="5" y="530" width="132" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-78" value="Lack of availability?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-11">
+          <mxGeometry x="5" y="636" width="132" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-12" value="Local Tour &#xa;Operators" style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
+          <mxGeometry x="776" width="150" height="744" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-14" value="Local Restaurants " style="swimlane;startSize=32;labelBackgroundColor=none;" vertex="1" parent="BxR5kWWOkdNth-eWLe1I-4">
+          <mxGeometry x="926" width="120" height="744" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-63" value="Coordinate with airlines, hotel, suppliers" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="181" y="-293" width="130" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BxR5kWWOkdNth-eWLe1I-66" value="Confirm details &amp;amp; finalise itinerary&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-241" width="130" height="38" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
