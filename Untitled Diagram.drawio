@@ -284,6 +284,30 @@
         <mxCell id="ypiWz0dABTGRfe8JdJoe-98" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;End&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="39" y="-722.74" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ypiWz0dABTGRfe8JdJoe-109" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Holiday Travel Process&lt;/span&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1740" y="-696.74" width="840" height="175.74" as="geometry" />
+        </mxCell>
+        <mxCell id="ypiWz0dABTGRfe8JdJoe-110" value="Customer" style="swimlane;startSize=20;html=1;" vertex="1" parent="ypiWz0dABTGRfe8JdJoe-109">
+          <mxGeometry y="20" width="120" height="155.74" as="geometry" />
+        </mxCell>
+        <mxCell id="ypiWz0dABTGRfe8JdJoe-111" value="Travel Agency" style="swimlane;startSize=20;html=1;" vertex="1" parent="ypiWz0dABTGRfe8JdJoe-109">
+          <mxGeometry x="120" y="20" width="120" height="155.74" as="geometry" />
+        </mxCell>
+        <mxCell id="ypiWz0dABTGRfe8JdJoe-112" value="Airline" style="swimlane;startSize=20;html=1;" vertex="1" parent="ypiWz0dABTGRfe8JdJoe-109">
+          <mxGeometry x="240" y="20" width="120" height="155.74" as="geometry" />
+        </mxCell>
+        <mxCell id="ypiWz0dABTGRfe8JdJoe-113" value="UK Customs" style="swimlane;startSize=20;html=1;" vertex="1" parent="ypiWz0dABTGRfe8JdJoe-109">
+          <mxGeometry x="360" y="20" width="120" height="155.74" as="geometry" />
+        </mxCell>
+        <mxCell id="ypiWz0dABTGRfe8JdJoe-114" value="Transportation" style="swimlane;startSize=20;html=1;" vertex="1" parent="ypiWz0dABTGRfe8JdJoe-109">
+          <mxGeometry x="480" y="20" width="120" height="155.74" as="geometry" />
+        </mxCell>
+        <mxCell id="ypiWz0dABTGRfe8JdJoe-115" value="Foreign Customs" style="swimlane;startSize=20;html=1;" vertex="1" parent="ypiWz0dABTGRfe8JdJoe-109">
+          <mxGeometry x="600" y="20" width="120" height="155.74" as="geometry" />
+        </mxCell>
+        <mxCell id="ypiWz0dABTGRfe8JdJoe-116" value="Hotel" style="swimlane;startSize=20;html=1;" vertex="1" parent="ypiWz0dABTGRfe8JdJoe-109">
+          <mxGeometry x="720" y="20" width="120" height="155.74" as="geometry" />
+        </mxCell>
         <mxCell id="ypiWz0dABTGRfe8JdJoe-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ypiWz0dABTGRfe8JdJoe-95" target="ypiWz0dABTGRfe8JdJoe-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
